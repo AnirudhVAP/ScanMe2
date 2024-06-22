@@ -1,0 +1,126 @@
+/*DetailPage.css*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .back-button {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .selected-dish {
+    background-color: #333;
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .selected-dish-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .calories {
+    font-size: 18px;
+    color: #aaa;
+  }
+  
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFD700;
+  }
+  
+  .heart-icon {
+    font-size: 24px;
+    color: #FFD700;
+  }
+  
+  .selected-image {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .order-button {
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-button:hover {
+    background-color: #FFC107;
+  }
+  
+  .more-dishes {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .item {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .text-container {
+    text-align: center;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: #333;
+  }
+  
